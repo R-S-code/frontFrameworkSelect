@@ -1,0 +1,60 @@
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+}
+body {
+
+}
+.title {
+  font-weight: 700;
+}
+.whole-wrapper {
+  margin: 0 auto;
+  max-width: 560px;
+  padding: 40px 20px;
+}
+.sub-title {
+  margin-top: 40px;
+}
+
+/*  */
+.framework-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.framework-wrapper p {
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 10px 10px black;
+  display: flex;
+  flex-shrink: 0;
+  height: 100px;
+  justify-content: center;
+  margin: 10px 20px;
+  width: 100px;
+}
+.framework-wrapper p:hover {
+  box-shadow: none;
+  transform: translate(10px, 10px);
+}
+.Angular {
+  background-color: blue;
+  color: white;
+}
+.Vue {
+  background-color: greenyellow;
+  color: black;
+}
+.React {
+  background-color: navy;
+  color: aquamarine;
+}
+.Riot {
+  background-color: red;
+  color: white;
+}
+.Svelte {
+  background-color: orange;
+  color: white;
+}
